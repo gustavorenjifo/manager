@@ -1,0 +1,206 @@
+/**mediaquery puntos de quiebre bootstrap**/
+
+/*---------- mac retina ------------*/
+@media only screen and ( min-width:2560px ) and (max-width:4000px){
+
+	.cuerpo {
+		min-height:1440px;
+	}
+
+}/*---------- mac retina ------------*/
+
+
+/*---------- full hd ------------*/
+@media only screen and ( min-width:1920px ) and (max-width:2559px){
+	.cuerpo {
+		min-height:870px;
+	}	
+}/*---------- full hd  ------------*/
+
+
+/*----------  hd ------------*/
+@media only screen and ( min-width:1280px ) and (max-width:1366px){
+	.cuerpo {
+		min-height:720px;
+	}	
+}/*----------  hd  ------------*/
+
+
+/*----------  hd ------------*/
+@media only screen and ( min-width:1367px ) and (max-width:1919px){
+	.cuerpo {
+		min-height:869px;
+	}	
+}/*----------  hd  ------------*/
+
+
+
+/*---------- col md  ------------*/
+@media only screen and ( min-width:960px ) and (max-width:4000px){
+	body {
+	 	padding-bottom:52px !important; 
+	}
+	.subir {
+		display: none !important;
+	}
+
+
+
+
+	
+
+}/* col sm */
+
+/*---------- col md  ------------*/
+@media only screen and ( min-width:1366px ) and (max-width:1600px){
+
+
+
+}/* col md */
+
+
+
+@media only screen and ( min-width:720px ) and (max-width:959px){
+
+	.cuerpo {
+		padding-bottom: 100px !important;
+		/*margin-left:50px;*/
+	}
+	.boxmenu {
+		/*left: -200px;*/
+	}
+	.foto label {
+    	font-size: 13px;
+	}
+}/* col sm */
+
+
+/*---------- xs ------------*/
+@media only screen and ( min-width:320px ) and (max-width:719px){
+	.boxmenu{
+		/*display: none;*/
+		z-index: 2;
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		padding-bottom: 19px;
+		
+
+	}
+
+	.foto {
+		.form-group{
+			width: 90%;
+			display: inline-block;
+		}
+	}
+
+	.menuprincipal{	
+		margin-top: 35px;
+		display: block;
+		overflow-y:scroll;
+		height: 412px;
+		> ul {
+			
+			float: left;
+			width: 100%;
+			/*li {
+				a {
+					span{
+						display: block !important;
+					}
+				}
+			}*/
+		}
+	}
+	.cuerpo {
+		margin-left: 0px !important;
+		padding-bottom: 100px !important;
+		margin-top: 45px;
+	}
+	.btn{
+		width: 100%;
+		margin-bottom:10px;
+		&.volver{
+			margin-top:10px;
+		}
+	}
+	.header{
+		height: auto;
+		padding: 15px;
+		background: #1d1d26;
+		width: 80%;
+		position: fixed;
+		.session {
+			display: none;
+		}
+
+		.nombre {
+			width: auto;
+
+			p, span {
+				display: none;
+			}
+		}
+		.perfil {
+			width:auto;
+			display: none;
+		}
+	}
+	.header > div {
+		display: inline-block;
+		width: 100%;
+	}
+
+	.foto label {
+    	font-size: 11px;
+	}
+	.cajablanca {
+		padding:15px;
+	}
+	h2 {
+		margin-bottom: 10px;
+	}
+
+	form {
+		&.activar {
+			width: 100%;
+		}
+		.form-inline{
+			margin-bottom:15px;
+		}
+	}
+	.footer{
+		height: auto;
+	}
+}/* col xs */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
