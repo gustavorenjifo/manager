@@ -7808,6 +7808,10 @@ li.fancybox-thumbs-loading {
       width: 100%;
       margin-right: 0px;
       position: relative; }
+      .menuprincipal ul li.activo {
+        background: #000000; }
+        .menuprincipal ul li.activo i:first-child {
+          color: #da0000; }
       .menuprincipal ul li.submenu {
         display: inline-block;
         border-top: 1px solid #2b303a;
@@ -7842,8 +7846,7 @@ li.fancybox-thumbs-loading {
       .menuprincipal ul li:hover {
         background: #000000; }
         .menuprincipal ul li:hover > i {
-          color: #da0000;
-          /*color:#CA5E5E;*/ }
+          color: #da0000; }
       .menuprincipal ul li a {
         display: block;
         line-height: 18px;
@@ -8109,18 +8112,8 @@ form label {
 form textarea {
   width: 100%; }
 
-.pagination li a {
-  color: #333; }
-
-.pagination li.active a {
-  background: none;
-  color: #da0000;
-  border-color: #da0000;
-  font-weight: bold; }
-  .pagination li.active a:hover {
-    background: none;
-    color: #da0000;
-    border-color: #da0000; }
+.pagination {
+  float: right; }
 
 .footer {
   /**/

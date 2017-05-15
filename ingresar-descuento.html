@@ -87,8 +87,8 @@
                            <span>Contacto</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="descuentos">
+                    <li class="activo">
+                        <a href="descuentos.html">
                             <i class="glyphicon glyphicon-tag"></i>
                             <span>Descuentos</span>
                         </a>
@@ -182,6 +182,7 @@
                         <li>Nuevo Descuento</li>
                     </ol><!-- breadcrumb -->
 
+                    <!--Volver-->
                     <div class="col-md-8">
                         <button  type="reset" class="btn btn-default volver">
                             <a href="javascript:history.back(1)">
@@ -189,7 +190,9 @@
                                 Volver
                             </a>
                         </button>
-                    </div>
+                    </div><!--Volver-->
+
+                    <!--activar-->
                     <div class="col-md-4">
                         <form class="activar">
                             <label>Estado</label>
@@ -203,18 +206,19 @@
                                 <span class="desactivo">Desactivada</span>
                              </label>
                         </form> 
-                    </div>
+                    </div><!--activar-->
                 </div>
-                <!--cajablanca-->
+
+                <!--titulo-->
                 <div class="titulo gris">
                     <p>Crear nuevo descuento</p>
-                </div>
+                </div><!--titulo-->
+                 <!--cajablanca-->
                 <div class="cajablanca">
-                    
                     <div class="contenido container-fluid">
                         <div class="row">
                             <form class="form-horizontal">
-
+                                <!--form-group-->
                                 <div class="form-group">
                                     <label class="control-label col-sm-2" for="local">
                                          Local
@@ -226,8 +230,8 @@
                                             <option>producto 2</option>
                                         </select>
                                     </div>
-                                </div>
-
+                                </div><!--form-group-->
+                                <!--form-group-->
                                 <div class="form-group">
                                     <label class="control-label col-sm-2" for="titulo">
                                         Título
@@ -235,8 +239,8 @@
                                     <div class="col-sm-10"> 
                                         <input type="text" class="form-control" id="titulo">
                                     </div>
-                                </div>
-
+                                </div><!--form-group-->
+                                <!--form-group-->
                                 <div class="form-group">
                                     <label class="control-label col-sm-2" for="descripcion">
                                         Descripción
@@ -244,8 +248,8 @@
                                     <div class="col-sm-10"> 
                                         <textarea id="descripcion" class="form-control" rows="4"></textarea>
                                     </div>
-                                </div>
-
+                                </div><!--form-group-->
+                                <!--form-group-->
                                 <div class="form-group">
                                     <div class="form-inline">
                                         <label class="control-label col-sm-2" for="tdescuento">
@@ -272,8 +276,8 @@
                                             </select>
                                         </div>
                                     </div> 
-                                </div> 
-
+                                </div><!--form-group-->
+                                <!--form-group-->
                                 <div class="form-group">
                                     <div class="form-inline">
                                         <label class="control-label col-sm-2" for="porcentaje">
@@ -299,10 +303,9 @@
                                             <input type="text" class="form-control" id="pdescuento" >
                                         </div>
                                     </div> 
-                                </div>                             
-                                
+                                </div><!--form-group-->                             
                                 <hr>
-
+                                <!--form-group-->
                                 <div class="form-group">
                                     <div class="col-xs-6 col-sm-4 col-md-3">
                                         <!--foto -->
@@ -384,24 +387,28 @@
                                             </div>
                                         </div><!--foto -->
                                     </div>
-                                </div>
+                                </div><!--form-group-->
                             </form>
                         </div>
                     </div>
-                </div><!--cajablanca--> 
-        </div><!--cuerpo-->
-        <div class="container-fluid">
-            <div class="row prevsubir">
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-success btn-lg pull-right">
-                        Subir campaña
-                    </button>
-                    <button type="button" class="btn btn-primary btn-lg pull-right">
-                        Previsualizar
-                    </button>
-                </div>
+                </div><!--cajablanca-->
             </div>
-        </div>
+             <!--acciones-->
+            <div class="container-fluid">
+                <div class="row prevsubir">
+                    <div class="col-md-12">
+                        <button type="button" class="btn btn-success btn-lg pull-right">
+                            Guardar
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg pull-right">
+                            Previsualizar
+                        </button>
+                    </div>
+                </div>
+            </div><!--acciones--> 
+            
+        </div><!--cuerpo-->
+       
     </div><!--boxmenucuerpo-->
   
 </head>
